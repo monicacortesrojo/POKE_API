@@ -12,5 +12,10 @@
         "id": 3,
         "name": "Pikachu",
         "type": "eléctrico"
+    },
+    {
+        "id": 4,
+        "name": "Charmander",
+        "type": "fuego"
     }
 ]

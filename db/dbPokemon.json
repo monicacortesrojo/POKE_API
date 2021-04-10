@@ -1,21 +1,27 @@
-[{
-        "id": 1,
-        "name": "Bulbasur",
-        "type": "planta"
-    },
-    {
-        "id": 2,
-        "name": "Squirtle",
-        "type": "agua"
-    },
-    {
-        "id": 3,
-        "name": "Pikachu",
-        "type": "eléctrico"
-    },
-    {
-        "id": 4,
-        "name": "Charmander",
-        "type": "fuego"
-    }
+[
+    { "id": 1, "name": "Pikachu", "type": "dragon" },
+    { "id": 2, "name": "Bulbasur", "type": "Planta" },
+    { "id": 3, "name": "Squirtle", "type": "Agua" },
+    { "id": 4, "name": "Charmander", "type": "Fuego" },
+    { "id": 5, "name": "Ivysaur", "type": "Planta" },
+    { "id": 6, "name": "Venusaur", "type": "Planta" },
+    { "id": 7, "name": "Charmeleon", "type": "Fuego" },
+    { "id": 8, "name": "Charizard", "type": "Fuego" },
+    { "id": 9, "name": "Wartotle", "type": "Agua" },
+    { "id": 10, "name": "Blastoise", "type": "Agua" },
+    { "id": 11, "name": "Caterpie", "type": "Bicho" },
+    { "id": 12, "name": "Metapod", "type": "Bicho" },
+    { "id": 13, "name": "Butterfree", "type": "Bicho" },
+    { "id": 14, "name": "Weedle", "type": "Bicho" },
+    { "id": 15, "name": "Rattata", "type": "Normal" },
+    { "id": 16, "name": "Raichu", "type": "Eléctrico" },
+    { "id": 17, "name": "Jigglypuff", "type": "Normal" },
+    { "id": 18, "name": "Wigglytuff", "type": "Normal" },
+    { "id": 19, "name": "Meowth", "type": "Normal" },
+    { "id": 20, "name": "Psyduck", "type": "Agua" },
+    { "id": 21, "name": "Slowpoke", "type": "Agua" },
+    { "id": 22, "name": "Jynx", "type": "Hielo" },
+    { "id": 23, "name": "Eevee", "type": "Normal" },
+    { "id": 24, "name": "Mew", "type": "Psíquico" },
+    { "id": 25, "name": "Chikorita", "type": "Planta" }
 ]

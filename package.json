@@ -1,22 +1,23 @@
 {
-  "name": "poke_api",
-  "version": "1.0.0",
-  "description": "Una API de pokemon",
-  "main": "api.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/monicacortesrojo/POKE_API.git"
-  },
-  "author": "Mónica Cortés",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/monicacortesrojo/POKE_API/issues"
-  },
-  "homepage": "https://github.com/monicacortesrojo/POKE_API#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "poke_api",
+    "version": "1.0.0",
+    "description": "Una API de pokemon",
+    "main": "api.js",
+    "scripts": {
+        "start": "node api.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/monicacortesrojo/POKE_API.git"
+    },
+    "author": "Mónica Cortés",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/monicacortesrojo/POKE_API/issues"
+    },
+    "homepage": "https://github.com/monicacortesrojo/POKE_API#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }

@@ -208,7 +208,7 @@ api.put("/api/pokemons/:id", (request, response) => {
         allPokemonsUpdate.forEach((pokemon) => {
             if (pokemon.id === Number.parseInt(request.params.id)) {
                 /*if (request.body.type)
-                                                                                                                                                                    pokemon.type = request.body.type;*/
+                                                                                                                                                                            pokemon.type = request.body.type;*/
 
                 pokemon.type = request.body.type ? request.body.type : pokemon.type;
                 pokemon.name = request.body.name ? request.body.name : pokemon.name;
@@ -315,5 +315,6 @@ api.get("/api/pokemons/:pokemonId/locations/:locationId", (req, res) => {
     });
 });
 
-api.listen(1010);
+const PORT = process.env.PORT || 1010;
+api.listen(PORT);
 console.log("API corriendo en puerto 1010");
